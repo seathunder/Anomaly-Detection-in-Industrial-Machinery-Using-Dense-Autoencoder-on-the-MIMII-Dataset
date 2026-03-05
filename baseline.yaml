@@ -1,0 +1,27 @@
+feature:
+  n_mels: 64
+  frames: 7
+  n_fft: 1024
+  hop_length: 512
+  power: 2.0
+
+fit:
+  epochs: 120
+  batch_size: 128
+  validation_split: 0.1
+  patience: 20
+  use_tfdata: false
+
+paths:
+  pickle_directory: ./pickle
+  model_directory: ./model
+  result_directory: ./result
+
+logging:
+  logfile: baseline.log
+
+run:
+  batch_predict_size: 256
+  scoring:
+    strategy: percentile
+    percentile: 95
