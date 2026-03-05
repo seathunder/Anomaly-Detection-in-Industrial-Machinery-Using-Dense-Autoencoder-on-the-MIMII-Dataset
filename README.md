@@ -66,6 +66,10 @@ Evaluated on a strictly isolated 1:1 balanced test subset (958 audio files) from
 # 1. Clone the repository
 git clone https://github.com/seathunder/Anomaly-Detection-in-Industrial-Machinery-Using-Dense-Autoencoder-on-the-MIMII-Dataset/
 
+Download the official MIMII Dataset valves subset. you can also use the rest of the dataset, but it was trained and tested only on the valves subset.
+
+train the model, instructions in **main.py**
+
 # 2. Install Python dependencies
 pip install -r requirements.txt
 
