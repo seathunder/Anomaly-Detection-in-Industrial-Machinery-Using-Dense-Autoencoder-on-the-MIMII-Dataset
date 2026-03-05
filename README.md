@@ -64,8 +64,7 @@ Evaluated on a strictly isolated 1:1 balanced test subset (958 audio files) from
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/yourusername/industrial-anomaly-dae.git](https://github.com/yourusername/industrial-anomaly-dae.git)
-cd industrial-anomaly-dae
+git clone https://github.com/seathunder/Anomaly-Detection-in-Industrial-Machinery-Using-Dense-Autoencoder-on-the-MIMII-Dataset/
 
 # 2. Install Python dependencies
 pip install -r requirements.txt
